@@ -142,7 +142,7 @@ regressors = [
     ['LogisticRegressionCV', LogisticRegressionCV()],
     ['DaskLGBMRegressor', DaskLGBMRegressor()],
     ['XGBoost', XGBRegressor()],
-['Catboost', CatBoostRegressor()],
+    ['Catboost', CatBoostRegressor()],
     ['DecisionTreeRegressor', DecisionTreeRegressor()],
     ['MLPRegressor', MLPRegressor()],
     ['LGBMRegressor', LGBMRegressor()],
