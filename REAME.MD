@@ -140,6 +140,7 @@ Now that you are in your snowflakes environment, any conda commands you type wil
 3. To see a list of all your environments, type:
 
 		conda info --envs
+		
 A list of environments appears, similar to the following:
 
 	conda environments:
@@ -170,6 +171,7 @@ When you create a new environment, conda installs the same Python version you us
 1. Create a new environment named "snakes" that contains Python 3.6:
 
 		conda create --name snakes python=3.6
+		
 When conda asks if you want to proceed, type "y" and press Enter.
 
 2. Activate the new environment:
@@ -191,6 +193,7 @@ macOS and Linux: source activate snakes
 3. Verify that the snakes environment has been added and is active:
 
 		conda info --envs
+		
 Conda displays the list of all environments with an asterisk (*) after the name of the active environment:
 
 ## conda environments:
@@ -239,7 +242,7 @@ This is the most basic and practical way to run Python scripts.
 
 The code above is to train a model, if you want to test the model, run the code below:
 
-    		$ python data_testing.py
+                $ python data_testing.py
  
  #### Note: The training and testing data is used with these columns, including: ['site', 'car_name', 'brand', 'grade', 'model', 'color', 'year_car', 'engine', 'odo', 'score', 'start_price', 'auction_site'], so you should change these attributes in <code>data_testing.py</code> and <code>model_new_pro.py</code>
 
