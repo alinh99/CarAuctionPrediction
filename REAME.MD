@@ -232,7 +232,7 @@ macOS, Linux: source activate
 ### Using the python Command
 To run Python scripts with the python command, you need to open a command-line and type in the word python, or python3 if you have both versions, followed by the path to your script, just like this:
 
-		$ python model_new_pro.py
+		 $ python model_new_pro.py
     
 If everything works okay, after you press Enter, you’ll see the output on your screen. That’s it! You’ve just run your first Python script!
 
