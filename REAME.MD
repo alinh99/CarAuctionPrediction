@@ -242,7 +242,7 @@ This is the most basic and practical way to run Python scripts.
 
 The code above is to train a model, if you want to test the model, run the code below:
 
-                $ python data_testing.py
+               $ python data_testing.py
  
  #### Note: The training and testing data is used with these columns, including: ['site', 'car_name', 'brand', 'grade', 'model', 'color', 'year_car', 'engine', 'odo', 'score', 'start_price', 'auction_site'], so you should change these attributes in <code>data_testing.py</code> and <code>model_new_pro.py</code>
 
