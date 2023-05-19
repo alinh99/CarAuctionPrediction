@@ -239,7 +239,7 @@ This is the most basic and practical way to run Python scripts.
 
 The code above is to train a model, if you want to test the model, run the code below:
 
-    $ python data_testing.py
+    		$ python data_testing.py
  
  #### Note: The training and testing data is used with these columns, including: ['site', 'car_name', 'brand', 'grade', 'model', 'color', 'year_car', 'engine', 'odo', 'score', 'start_price', 'auction_site'], so you should change these attributes in <code>data_testing.py</code> and <code>model_new_pro.py</code>
 
@@ -247,7 +247,7 @@ The code above is to train a model, if you want to test the model, run the code 
 ### Redirecting the Output
 Sometimes it’s useful to save the output of a script for later analysis. Here’s how you can do that:
 
-		$ python phanbiet_namnu.py > output.txt
+		$ python model_new_pro.py > output.txt or python data_testing.py > output.txt
     
 This operation redirects the output of your script to output.txt, rather than to the standard system output (stdout). The process is commonly known as stream redirection and is available on both Windows and Unix-like systems.
 
@@ -255,7 +255,8 @@ If output.txt doesn’t exist, then it’s automatically created. On the other h
 
 Finally, if you want to add the output of consecutive executions to the end of output.txt, then you must use two angle brackets (>>) instead of one, just like this:
 
-		$ python phanbiet_namnu.py >> output.txt
+		$ python model_new_pro.py >> output.txt or python data_testing.py >> output.txt
+		
 Now, the output will be appended to the end of output.txt.
 
 ### Stop python file
